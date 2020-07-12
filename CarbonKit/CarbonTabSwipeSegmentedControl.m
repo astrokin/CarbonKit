@@ -179,7 +179,7 @@
 }
 
 - (CGFloat)getMinXForSegmentAtIndex:(NSUInteger)index {
-    return CGRectGetMinX(self.segments[index].frame);
+    return self.segments.count > index ? CGRectGetMinX(self.segments[index].frame) : 0;
 }
 
 - (CGFloat)getWidthForSegmentAtIndex:(NSUInteger)index {
@@ -228,6 +228,12 @@
         return [UIView userInterfaceLayoutDirectionForSemanticContentAttribute:self.semanticContentAttribute] == UIUserInterfaceLayoutDirectionRightToLeft;
     }
     return NO;
+}
+
+#pragma mark - Gestures
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    return YES;
 }
 
 @end
