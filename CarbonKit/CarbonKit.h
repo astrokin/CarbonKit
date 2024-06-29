@@ -29,5 +29,5 @@ FOUNDATION_EXPORT double CarbonKitVersionNumber;
 //! Project version string for CarbonKit.
 FOUNDATION_EXPORT const unsigned char CarbonKitVersionString[];
 
-#import <CarbonKit/CarbonSwipeRefresh.h>
-#import <CarbonKit/CarbonTabSwipeNavigation.h>
+#import <ASCarbonKit/CarbonSwipeRefresh.h>
+#import <ASCarbonKit/CarbonTabSwipeNavigation.h>
