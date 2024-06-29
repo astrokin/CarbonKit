@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ASCarbonKit"
-  s.version      = "2.3.2"
+  s.version      = "2.3.3"
   s.summary      = "CarbonKit - iOS Components (Obj-C & Swift)"
 
   s.description  = "CarbonKit is an open source iOS library that includes powerful and beauty UI components."
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
